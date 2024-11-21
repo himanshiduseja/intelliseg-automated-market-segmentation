@@ -139,7 +139,7 @@ class MarketSegmentation:
             )
 
             # Creating a title
-            st.markdown("""<center class='custom-title'>Market Segmentation</center>""", unsafe_allow_html=True)
+            #st.markdown("""<center class='custom-title'>Market Segmentation</center>""", unsafe_allow_html=True)
 
         except Exception as e:
             st.error(f"An error occurred while applying page style: {e}")
